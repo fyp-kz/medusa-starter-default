@@ -13,3 +13,5 @@ RUN yarn
 RUN yarn build
 
 CMD medusa migrations run && yarn start
+
+EXPOSE 6000
